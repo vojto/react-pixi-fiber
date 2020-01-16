@@ -78,7 +78,6 @@
     "build:index:prod": "cross-env NODE_ENV=production rollup -c config/rollup.config.js --environment entry:index",
     "eslint": "eslint src",
     "eslint-check": "eslint --print-config .eslintrc.json | eslint-config-prettier-check",
-    "prepublishOnly": "npm run test && npm run build",
     "test": "jest",
     "test:ts": "tsc -p tsconfig.json"
   },
