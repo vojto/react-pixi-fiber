@@ -1,5 +1,5 @@
 {
-  "name": "react-pixi-fiber",
+  "name": "vojto-react-pixi-fiber",
   "version": "0.12.1",
   "description": "React Fiber renderer for PixiJS",
   "main": "index.js",
